@@ -1,0 +1,39 @@
+* {
+    padding:0;margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(167, 244, 250, 0.5);
+}
+#heading {
+    font-size: 34px;
+    font-family: cursive;
+    margin:30px auto;
+    text-align: center;
+    color: rgb(19, 41, 236);
+}
+#container{
+    margin:150px auto; 
+    height:200px;
+    width:100%;
+    
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+#container .Style-button {
+    margin:50px;
+    height:70px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(19, 236, 189);
+    color:rgb(41, 19, 236) ;
+    font-weight: bolder;
+    font-size: 17px;
+}
+#container .Style-button:hover{
+    color: white;
+    background-color: rgb(41, 19, 236);
+}
